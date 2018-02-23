@@ -1,5 +1,5 @@
 {
-  "name": "contentid",
+  "name": "content-id",
   "version": "0.0.1",
   "description": "Routines for handling contentId for TagCloud content ingestion",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/RingierAG/contentid.git"
+    "url": "git+ssh://git@github.com/RingierAG/content-id.git"
   },
   "keywords": [
     "tagcloud",
@@ -18,9 +18,9 @@
   "author": "Zhao Wang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RingierAG/contentid/issues"
+    "url": "https://github.com/RingierAG/content-id/issues"
   },
-  "homepage": "https://github.com/RingierAG/contentid#readme",
+  "homepage": "https://github.com/RingierAG/content-id#readme",
   "devDependencies": {
     "chai": "^4.1.2",
     "eslint": "^4.18.1",
