@@ -44,10 +44,6 @@ describe('contentid#escape', function() {
 });
 
 describe('contentid#assemble', function() {
-  it('should escape the 2nd parameter', function() {
-    assert.equal(contentId.assemble('escenic', ' provider name-here', 'articleId'),
-      'escenic~providerName-here~articleId');
-  });
   it('should left padding the 3rd component if it is an integer', function() {
     assert.equal(contentId.assemble('escenic', 'provider', 123456),
       'escenic~provider~00000123456');

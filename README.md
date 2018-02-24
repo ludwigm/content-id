@@ -23,8 +23,8 @@ contentid.escape('  abc abc-abc_abc.abc~abc');
 //=> 'abcAbc-abc_abc.abc__abc'
 
 /*
- * Concatenate the three components with '~' as the separator. Escape the middle one. If the last one is a number,
- * add zero left-padding to 11 digits
+ * Concatenate the three components with '~' as the separator. If the last one is a number, add zero left-padding
+ * until 11 digits
  */
 contentid.assemble('source', 'provider name', 'articleId');
 //=> 'source~providerName~articleId'

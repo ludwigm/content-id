@@ -1,6 +1,6 @@
 {
   "name": "content-id",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Routines for handling contentId for TagCloud content ingestion",
   "main": "index.js",
   "scripts": {

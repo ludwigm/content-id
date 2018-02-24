@@ -57,7 +57,7 @@ function pad(source) {
  * @return {string}
  */
 function assemble(source, provider, articleId) {
-  return `${source.trim()}~${escape(provider)}~${Number.isInteger(articleId) ? pad('' + articleId) : articleId}`;
+  return `${source.trim()}~${provider.trim()}~${Number.isInteger(articleId) ? pad('' + articleId) : articleId.trim()}`;
 }
 
 module.exports = {
